@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http'; 
 
 import { AppComponent } from './app.component';
 import { HomeComponentComponent } from './component/home-component/home-component.component';
@@ -26,7 +27,7 @@ import { BlogContentComponent } from './component/blog/blog-content/blog-content
 
   ],
   imports: [
-    BrowserModule
+    BrowserModule,HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
