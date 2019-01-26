@@ -1,0 +1,13 @@
+    <!-- Six -->
+    <section class="wrapper style1 align-center">
+      <div class="inner">
+        <app-jumborton></app-jumborton>
+ 
+        <div class="items style1 medium onscroll-fade-in">
+         <section *ngFor="let item of authoredData">
+            <app-blog-content [content]="item"></app-blog-content>
+         </section>    
+
+          </div>
+      </div>
+  </section>
